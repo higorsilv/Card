@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+ 
+ .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+ }
+
+ .card {
+    background: #FFF;
+    BOX-SHADOW: 0px 2px 23px #151d3ab8;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.mediaCard{
+    background: url(https://media.gq-magazine.co.uk/photos/5d1397489a22c20278947f79/16:9/w_1920,c_limit/Blade-Runner-GQ-20Dec16_b.jpg) center/cover;
+    height: 300px;
+    width: 100%;
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+button.actions {
+    background: none;
+    border: none;
+    color: purple;
+}
